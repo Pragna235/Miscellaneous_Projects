@@ -1,0 +1,25 @@
+#Create your Digital Clock
+#code is a follows:
+#exclude double quotes!
+
+"@echo off
+Title Digital Clock
+@mode con cools=30 lines=7
+color 03
+:main
+cls
+echo.
+echo Time: %time%
+echo.
+echo Date: %date%
+echo.
+ping -n 2 0.0.0.0>nul
+goto main"
+ 
+#1If you want to run this is code again; open a new notepad and only write the code and save
+it as 'clocl.bat' or any other name of your choice with the '.bat' extension.
+
+#2Then go to the search bar and search for "clock.bat" and open the app you created. It will
+show you the exact time and date.
+
+#Already the app is created  in this PC.. so just check #2 if needed.!
